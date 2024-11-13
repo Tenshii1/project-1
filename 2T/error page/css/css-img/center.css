@@ -1,0 +1,28 @@
+body {
+    background-color: #000000;
+    margin: 0; 
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.Fries {
+    filter: brightness(50%);
+}
+p {
+    color: rgb(177, 177, 177);
+}
+.big {
+    font-size: 25px;
+}
+.small {
+    color: rgb(139, 137, 137);
+    font-size: 15px;
+}
