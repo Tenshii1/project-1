@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    margin: 0; 
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: flex;
+    padding: 50px;
+}
+p {
+    color: rgb(177, 177, 177);
+}
+.big {
+    font-size: 25px;
+}
+.small {
+    color: rgb(139, 137, 137);
+    font-size: 15px;
+}
